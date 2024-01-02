@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Changing Image</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Sevillana&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+        <h1>Changing Image</h1><br><br><br>
+        <div class="box">
+        </div>
+    </center>
+        </body>
+    <style>
+        .h1{
+        font-family: 'Sevillana', cursive;
+        width:100px;
+        height:50px;
+        }
+        .box{
+            width :500px;
+            height: 500px;
+            border : ridge 15px black;
+            position:relative;
+            animation: changingimage 10s infinite alternate;
+            
+        }
+        @keyframes changingimage
+        {
+        20%{background-color: aqua;top:0px;}
+        40%{background-color: antiquewhite;top: 0px;}
+        60%{background-color: black;top:0px;}
+        100%{background-color:crimson;top: 0px;}
+        }
+    </style>
+</html>
